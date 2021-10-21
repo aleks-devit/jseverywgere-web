@@ -64,7 +64,7 @@ typings/
 .vscode
 
 # built files
-dist
+
 .cache
 
 # cypress videos & screenshots

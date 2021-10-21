@@ -7,7 +7,7 @@ const NEW_NOTE = gql`
       content
       createdAt
       favoriteCount
-      favoritedBy {
+      favoriteBy {
         id
         username
       }
@@ -26,7 +26,7 @@ const EDIT_NOTE = gql`
       content
       createdAt
       favoriteCount
-      favoritedBy {
+      favoriteBy {
         id
         username
       }

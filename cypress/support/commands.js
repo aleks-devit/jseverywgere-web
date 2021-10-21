@@ -55,7 +55,7 @@ Cypress.Commands.add('createNote', overrides => {
         content
         createdAt
         favoriteCount
-        favoritedBy {
+        favoriteBy {
           id
           username
         }
